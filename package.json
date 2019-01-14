@@ -1,0 +1,25 @@
+{
+  "name": "janet-quotes",
+  "version": "1.0.0",
+  "description": "Random Janet quotes from The Good Place",
+  "main": "index.js",
+  "repository": "git@github.com:thegreenrobot/janet-quotes.git",
+  "author": "Matthew Green <thematthewgreen@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "xo && ava --verbose"
+  },
+  "bugs": {
+    "url": "https://github.com/thegreenrobot/janet-quotes/issues"
+  },
+  "homepage": "https://github.com/thegreenrobot/janet-quotes#readme",
+  "dependencies": {
+    "meow": "^3.7.0",
+    "unique-random-array": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "xo": "^0.17.1"
+  }
+}
